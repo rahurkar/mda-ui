@@ -386,7 +386,12 @@ Updates the URL string with the current query when the user changes the
 		    "pre": " (",
 		    "field": "pt_gender",
 		    "post": ")"
-		}
+		},
+		{
+		    "pre": " <strong>(",
+		    "field": "pt_state",
+		    "post": ")</strong>"
+		},
 	    ],
 	    [
 		{
@@ -1362,6 +1367,9 @@ Updates the URL string with the current query when the user changes the
             };
             thefacetview += '</select>';
         };
+
+	thefacetview += '<a class="btn facetview_sharesave" title="Export data" style="margin:0 0 5px 5px;" href=""><i class="icon-share-alt"></i></a>';
+
 
         if ( options.sharesave_link ) {
 	      thefacetview += '<a class="btn facetview_sharesave" title="share or save this search" style="margin:0 0 5px 5px;" href=""><i class="icon-share-alt"></i></a>';

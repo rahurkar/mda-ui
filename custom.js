@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
 		    {'field': 'pt_gender', 'display': 'gender'},
                     {'field': 'enc_id', 'display': 'patients'},
                     {'field': 'cpt_names_na', 'display': 'procedure'},
-                    {'field': 'pt_vitals_list_na', 'display': 'vitals'}
+                    //{'field': 'pt_vitals_list_na', 'display': 'vitals'}
                     //{'field': 'pt_vitals.test_name', 'display': 'vitals'},
                     //{'field': 'pt_vitals.reading', 'display': 'reading'}
 		],
@@ -53,4 +53,3 @@ process(drugs);
 })
 }
 })
-
